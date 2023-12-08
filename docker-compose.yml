@@ -1,0 +1,7 @@
+services:
+  docker:
+    build: container
+    privileged: true
+    tty: true
+    stdin_open: true
+    
